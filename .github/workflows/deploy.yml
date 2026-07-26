@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - registry
   workflow_dispatch:
 
 permissions:
