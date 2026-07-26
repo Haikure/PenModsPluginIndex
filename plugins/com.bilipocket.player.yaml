@@ -1,0 +1,39 @@
+id: com.bilipocket.player
+kind: plugin
+name: 笔里哔哩
+author: BiliPocket
+category: utility
+summary: 为 320x170 触摸屏设计的哔哩哔哩客户端
+description: |
+  为 320x170 触摸屏设计的哔哩哔哩客户端，还原多种功能
+# Optional. Omit this when the project does not have a real icon.
+icon: https://raw.githubusercontent.com/Haikure/BiliPocket/main/icon.png
+repo_url: https://github.com/Haikure/BiliPocket
+homepage: https://github.com/Haikure/BiliPocket
+download_url: https://github.com/Haikure/BiliPocket/releases/latest
+releases_url: https://github.com/Haikure/BiliPocket/releases
+version: v1.7.1
+source_available: true
+visibility: public
+distribution:
+  type: github-release
+  url: https://github.com/Haikure/BiliPocket/releases/latest
+  notes: Public release page for the plugin package.
+update:
+  strategy: direct
+  requires_restart: false
+  notes: Regular plugins can usually be installed directly.
+verified: true
+tags:
+  - utility
+compatibility:
+  capabilities:
+    requires:
+      - capability:plugin-loader
+      - capability:videoplayer
+dependencies:
+  required:
+    - id: lyrecoul.penmods
+      capabilities:
+        - capability:plugin-loader
+      reason: Requires the PenMods runtime and plugin loading environment.
