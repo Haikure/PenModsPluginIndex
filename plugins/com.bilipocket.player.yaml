@@ -12,7 +12,7 @@ repo_url: https://github.com/Haikure/BiliPocket
 homepage: https://github.com/Haikure/BiliPocket
 download_url: https://github.com/Haikure/BiliPocket/releases/latest
 releases_url: https://github.com/Haikure/BiliPocket/releases
-version: v1.7.1
+version: v1.7.3
 source_available: true
 visibility: public
 distribution:
